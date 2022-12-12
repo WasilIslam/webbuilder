@@ -1,0 +1,154 @@
+
+#creatorButtons{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: blanchedalmond;
+    border-bottom: 1px solid black;
+    padding: 10px 2px;
+}
+#creatorButtons button{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+    #cross_sign{
+        cursor:pointer;
+        background-color: red;
+        padding: 0px 6px;
+margin-right:2px ;
+        color: whitesmoke;
+        border: 1px solid blanchedalmond;
+    }
+/* .div:hover .div_functions{
+visibility: visible;
+} */
+.div_functions{
+opacity: 0.9;
+    background-color:#364f6b;
+position: absolute;
+border: 1px solid black;
+    top: -20px;
+    width: 100%;
+cursor: move;
+}
+div .inaction{
+outline:dashed
+}
+.div_functions:active{
+opacity: 0.87;
+}
+.div_functions button{
+    border: none;
+border-left: 1px solid rgba(255, 255, 255, 0.418);
+cursor: pointer;
+background-color: white;
+color: black;
+float: right;
+}
+.div_functions button::after{
+    font-family: "Font Awesome 5 Free";
+    content: "\f044";
+}
+
+/*Editor*/
+#editorincheif{
+    position: absolute;
+min-width: 300px;
+min-height: 500px;
+max-width: 300px;
+max-height: 500px;
+top: 40px;
+left: 50%;
+transform: translateX(-50%);
+border: 1px solid grey;
+background-color: rgb(235, 233, 233);
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#editorincheif button{
+    background-color: inherit;
+    outline: none;
+    border:1px solid black;
+    cursor:pointer;
+ }
+#editorincheif textarea{
+    box-sizing: border-box;
+    height: 100px;
+    width: 100%;
+    font-family: inherit;
+    resize: vertical;
+}
+#headereditor{
+    padding: 5px 0px;
+    cursor: move;
+    width: 100%;
+    background-color: darkblue;
+    color: whitesmoke;
+border-bottom: 1px solid grey;
+display: flex;
+justify-content: space-between;
+}
+#bottom_editor{
+position: absolute;
+bottom: 0;
+width: 100%;
+border-top:1px solid grey ;
+display: flex;
+justify-content: flex-end;
+padding-top: 2px;
+}
+#bottom_editor button{
+border: none;
+padding: 3px;
+cursor: pointer;
+outline: none;
+font-size: 20px;
+}
+#bottom_editor button:hover{
+background-color: red;
+color: white;
+}
+
+
+
+
+
+#editorincheif select{
+padding: 3px;
+font-family: inherit;
+border: 1px solid black;
+outline: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*PAGES*/
+#CSS{
+
+}
+#css_div{
+    display: flex;
+justify-content: center;
+}
+
+/*                      BUTTONS HeaderDiv                            */
+#buttondiv button{
+border-bottom: none;
+font-family: inherit;
+border: 1px solid black;
+outline: none;
+cursor: pointer;
+}
+#buttondiv button:active{
+    background-color: rgba(128, 128, 128, 0.486);
+}
+#buttondiv button .active{
+    background-color: ivory;
+}
+/*                      BUTTONS HeaderDiv                            */

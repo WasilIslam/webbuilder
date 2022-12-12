@@ -1,0 +1,52 @@
+<!--بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْمِ-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1024">
+    <title>web</title>
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <link rel="stylesheet" href="/web.css">
+<style>
+        body{
+            zoom: 100%;
+        margin: 0px;
+        padding: 0px;
+        font-family: Roboto;/*backup font*/
+        }
+        @media(max-width: 950px){
+            body{
+                zoom: 50%;
+            }
+        }
+        #userweb{
+        position: relative;
+        white-space: pre-wrap;
+        }
+        #userweb p,#userweb img{border:1px  solid transparent;}
+        #userweb input{border: 2px solid black;}
+        .div{
+        position: absolute;
+        border: 1px solid transparent;
+        }
+</style>
+</head>
+<body oncontextmenu="return false">
+    <section id="creatorButtons">
+Create A 
+<button onclick="createText()">Text</button>
+<button onclick="createLink()">Link</button>
+<button onclick="createInput()">Input</button>
+<button onclick="createImage()">Image</button>
+<button onclick="createEmpty()">Empty</button>
+<button style="float: right;" onclick="downloadweb()">Save</button>
+<button style="float: right;" onclick="this.nextElementSibling.click()">Load</button>
+<input type="file" id="fileInput" style="display: none"></input>
+</section>
+<section id="userweb"></section>
+</body>
+<script src="/fx.js"></script>
+<script src="/web.js"></script>
+<script src="/helper.js"></script>
+</html>
